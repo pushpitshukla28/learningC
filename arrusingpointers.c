@@ -13,7 +13,7 @@ for (int i = 0; i < n; i++)
 printf("The address of entered array is: \n");
 for (int i = 0; i < n; i++)
 {
-    printf("%d\t", (void*)ptr+i);
+    printf("%4d\t", (void*)ptr+i);
 }
 printf("\nThe entered array is: \n");
 for (int i = 0; i < n; i++)
