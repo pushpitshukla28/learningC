@@ -68,7 +68,7 @@ int main(){
         printf("3. Print the topmost element\n");
         printf("4. Print the whole stack\n");
         printf("5. Quit\n");
-        printf("Please enter your choice:\n");
+        printf("Enter your choice:\n");
         scanf("%d" , &choice);
 
         switch (choice)
