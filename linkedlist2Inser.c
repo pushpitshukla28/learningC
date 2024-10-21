@@ -77,12 +77,12 @@ int main(){
     traversal(head);
 
     printf("\nLinked list after insertion\n");
-    //head = insertAtfirst(head , 69);
-    //traversal(head);
+    head = insertAtfirst(head , 69);
+    traversal(head);
     // head = insertAtIndex(head , 99 , 2);
     // traversal(head);
     // head = insertAtEnd(head , 105);
     // traversal(head);
-    head = insertAfterNode(head , second , 696);
-    traversal(head);
+    // head = insertAfterNode(head , second , 696);
+    // traversal(head);
 }
