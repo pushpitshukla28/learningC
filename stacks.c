@@ -9,20 +9,22 @@ int isFull(){
     {
         return 1;
     }
-    else{
+    else
+    {
         return 0;
-    }
-    
+    }    
 }
 
-int isEmpty(){
+int isEmpty()
+{
     if(top == -1)
     return 1;
     else
     return 0;
 }
 
-void push(int data){
+void push(int data)
+{
     if(isFull()){
         printf("Stack Overflow\n");
         return;

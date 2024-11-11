@@ -9,7 +9,7 @@ typedef struct Node{
     int data;
     struct Node *next;
 }node;
-
+ 
 void traversal(node *ptr){
     while(ptr != NULL){
         printf("Element is %d\n" , ptr->data);

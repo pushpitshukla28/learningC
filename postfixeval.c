@@ -58,7 +58,7 @@ int postfixeval(char *exp){
                 push(oper1 + oper2);
                 break;
                 case '-':
-                    push(oper2 - oper1);
+                    push(oper2 - oper1);    ++
                     break;
                 case '/':
                     push(oper2 / oper1);
